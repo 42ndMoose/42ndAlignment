@@ -1,0 +1,554 @@
+{
+  "scenarios": [
+    {
+      "id": "v1_9_memory_error_keys_001",
+      "description": "Memory-error contradiction involving taking and returning keys. Batch round 1.",
+      "firstClaim": "I never took the keys.",
+      "secondClaim": "Actually, I took the keys yesterday but already returned them.",
+      "evidence": {
+        "direction": "supports",
+        "text": "There is a message confirming the keys were returned yesterday evening."
+      },
+      "actionAnswer": "I honestly forgot because it happened quickly yesterday. My earlier denial was a memory error, not an attempt to deceive."
+    },
+    {
+      "id": "v1_9_borrowed_phone_returned_002",
+      "description": "Borrowing contradiction involving borrowing and returning the phone. Batch round 1.",
+      "firstClaim": "I never borrowed the phone.",
+      "secondClaim": "Actually, I borrowed the phone last week but already returned it.",
+      "evidence": {
+        "direction": "supports",
+        "text": "There is a record showing the phone was borrowed and returned."
+      },
+      "actionAnswer": "I forgot because it happened earlier. The earlier denial was too absolute and should be weakened."
+    },
+    {
+      "id": "v1_9_scope_book_return_003",
+      "description": "Scope clarification involving what it meant to return the book. Batch round 1.",
+      "firstClaim": "I returned the book.",
+      "secondClaim": "Actually, I only returned part of the book situation, not everything connected to it.",
+      "evidence": {
+        "direction": "supports",
+        "text": "The evidence shows a partial return connected to the book, but not a complete resolution."
+      },
+      "actionAnswer": "My earlier claim was too broad. I meant the return was partially handled, not fully settled."
+    },
+    {
+      "id": "v1_9_partial_truth_money_004",
+      "description": "Partial-truth correction involving money repayment. Batch round 1.",
+      "firstClaim": "I already returned the money.",
+      "secondClaim": "I returned the money late, not when I first claimed.",
+      "evidence": {
+        "direction": "supports",
+        "text": "The timestamp supports that the money was returned later than originally implied."
+      },
+      "actionAnswer": "The basic return claim was partly true, but the timing was wrong. The confidence in the earlier version should be reduced."
+    },
+    {
+      "id": "v1_9_memory_error_keys_005",
+      "description": "Memory-error contradiction involving taking and returning keys. Batch round 2.",
+      "firstClaim": "I never took the keys.",
+      "secondClaim": "Actually, I took the keys yesterday but already returned them.",
+      "evidence": {
+        "direction": "supports",
+        "text": "There is a message confirming the keys were returned yesterday evening."
+      },
+      "actionAnswer": "I honestly forgot because it happened quickly yesterday. My earlier denial was a memory error, not an attempt to deceive."
+    },
+    {
+      "id": "v1_9_borrowed_phone_returned_006",
+      "description": "Borrowing contradiction involving borrowing and returning the phone. Batch round 2.",
+      "firstClaim": "I never borrowed the phone.",
+      "secondClaim": "Actually, I borrowed the phone last week but already returned it.",
+      "evidence": {
+        "direction": "supports",
+        "text": "There is a record showing the phone was borrowed and returned."
+      },
+      "actionAnswer": "I forgot because it happened earlier. The earlier denial was too absolute and should be weakened."
+    },
+    {
+      "id": "v1_9_scope_book_return_007",
+      "description": "Scope clarification involving what it meant to return the book. Batch round 2.",
+      "firstClaim": "I returned the book.",
+      "secondClaim": "Actually, I only returned part of the book situation, not everything connected to it.",
+      "evidence": {
+        "direction": "supports",
+        "text": "The evidence shows a partial return connected to the book, but not a complete resolution."
+      },
+      "actionAnswer": "My earlier claim was too broad. I meant the return was partially handled, not fully settled."
+    },
+    {
+      "id": "v1_9_partial_truth_money_008",
+      "description": "Partial-truth correction involving money repayment. Batch round 2.",
+      "firstClaim": "I already returned the money.",
+      "secondClaim": "I returned the money late, not when I first claimed.",
+      "evidence": {
+        "direction": "supports",
+        "text": "The timestamp supports that the money was returned later than originally implied."
+      },
+      "actionAnswer": "The basic return claim was partly true, but the timing was wrong. The confidence in the earlier version should be reduced."
+    },
+    {
+      "id": "v1_9_memory_error_keys_009",
+      "description": "Memory-error contradiction involving taking and returning keys. Batch round 3.",
+      "firstClaim": "I never took the keys.",
+      "secondClaim": "Actually, I took the keys yesterday but already returned them.",
+      "evidence": {
+        "direction": "supports",
+        "text": "There is a message confirming the keys were returned yesterday evening."
+      },
+      "actionAnswer": "I honestly forgot because it happened quickly yesterday. My earlier denial was a memory error, not an attempt to deceive."
+    },
+    {
+      "id": "v1_9_borrowed_phone_returned_010",
+      "description": "Borrowing contradiction involving borrowing and returning the phone. Batch round 3.",
+      "firstClaim": "I never borrowed the phone.",
+      "secondClaim": "Actually, I borrowed the phone last week but already returned it.",
+      "evidence": {
+        "direction": "supports",
+        "text": "There is a record showing the phone was borrowed and returned."
+      },
+      "actionAnswer": "I forgot because it happened earlier. The earlier denial was too absolute and should be weakened."
+    },
+    {
+      "id": "v1_9_scope_book_return_011",
+      "description": "Scope clarification involving what it meant to return the book. Batch round 3.",
+      "firstClaim": "I returned the book.",
+      "secondClaim": "Actually, I only returned part of the book situation, not everything connected to it.",
+      "evidence": {
+        "direction": "supports",
+        "text": "The evidence shows a partial return connected to the book, but not a complete resolution."
+      },
+      "actionAnswer": "My earlier claim was too broad. I meant the return was partially handled, not fully settled."
+    },
+    {
+      "id": "v1_9_partial_truth_money_012",
+      "description": "Partial-truth correction involving money repayment. Batch round 3.",
+      "firstClaim": "I already returned the money.",
+      "secondClaim": "I returned the money late, not when I first claimed.",
+      "evidence": {
+        "direction": "supports",
+        "text": "The timestamp supports that the money was returned later than originally implied."
+      },
+      "actionAnswer": "The basic return claim was partly true, but the timing was wrong. The confidence in the earlier version should be reduced."
+    },
+    {
+      "id": "v1_9_memory_error_keys_013",
+      "description": "Memory-error contradiction involving taking and returning keys. Batch round 4.",
+      "firstClaim": "I never took the keys.",
+      "secondClaim": "Actually, I took the keys yesterday but already returned them.",
+      "evidence": {
+        "direction": "supports",
+        "text": "There is a message confirming the keys were returned yesterday evening."
+      },
+      "actionAnswer": "I honestly forgot because it happened quickly yesterday. My earlier denial was a memory error, not an attempt to deceive."
+    },
+    {
+      "id": "v1_9_borrowed_phone_returned_014",
+      "description": "Borrowing contradiction involving borrowing and returning the phone. Batch round 4.",
+      "firstClaim": "I never borrowed the phone.",
+      "secondClaim": "Actually, I borrowed the phone last week but already returned it.",
+      "evidence": {
+        "direction": "supports",
+        "text": "There is a record showing the phone was borrowed and returned."
+      },
+      "actionAnswer": "I forgot because it happened earlier. The earlier denial was too absolute and should be weakened."
+    },
+    {
+      "id": "v1_9_scope_book_return_015",
+      "description": "Scope clarification involving what it meant to return the book. Batch round 4.",
+      "firstClaim": "I returned the book.",
+      "secondClaim": "Actually, I only returned part of the book situation, not everything connected to it.",
+      "evidence": {
+        "direction": "supports",
+        "text": "The evidence shows a partial return connected to the book, but not a complete resolution."
+      },
+      "actionAnswer": "My earlier claim was too broad. I meant the return was partially handled, not fully settled."
+    },
+    {
+      "id": "v1_9_partial_truth_money_016",
+      "description": "Partial-truth correction involving money repayment. Batch round 4.",
+      "firstClaim": "I already returned the money.",
+      "secondClaim": "I returned the money late, not when I first claimed.",
+      "evidence": {
+        "direction": "supports",
+        "text": "The timestamp supports that the money was returned later than originally implied."
+      },
+      "actionAnswer": "The basic return claim was partly true, but the timing was wrong. The confidence in the earlier version should be reduced."
+    },
+    {
+      "id": "v1_9_memory_error_keys_017",
+      "description": "Memory-error contradiction involving taking and returning keys. Batch round 5.",
+      "firstClaim": "I never took the keys.",
+      "secondClaim": "Actually, I took the keys yesterday but already returned them.",
+      "evidence": {
+        "direction": "supports",
+        "text": "There is a message confirming the keys were returned yesterday evening."
+      },
+      "actionAnswer": "I honestly forgot because it happened quickly yesterday. My earlier denial was a memory error, not an attempt to deceive."
+    },
+    {
+      "id": "v1_9_borrowed_phone_returned_018",
+      "description": "Borrowing contradiction involving borrowing and returning the phone. Batch round 5.",
+      "firstClaim": "I never borrowed the phone.",
+      "secondClaim": "Actually, I borrowed the phone last week but already returned it.",
+      "evidence": {
+        "direction": "supports",
+        "text": "There is a record showing the phone was borrowed and returned."
+      },
+      "actionAnswer": "I forgot because it happened earlier. The earlier denial was too absolute and should be weakened."
+    },
+    {
+      "id": "v1_9_scope_book_return_019",
+      "description": "Scope clarification involving what it meant to return the book. Batch round 5.",
+      "firstClaim": "I returned the book.",
+      "secondClaim": "Actually, I only returned part of the book situation, not everything connected to it.",
+      "evidence": {
+        "direction": "supports",
+        "text": "The evidence shows a partial return connected to the book, but not a complete resolution."
+      },
+      "actionAnswer": "My earlier claim was too broad. I meant the return was partially handled, not fully settled."
+    },
+    {
+      "id": "v1_9_partial_truth_money_020",
+      "description": "Partial-truth correction involving money repayment. Batch round 5.",
+      "firstClaim": "I already returned the money.",
+      "secondClaim": "I returned the money late, not when I first claimed.",
+      "evidence": {
+        "direction": "supports",
+        "text": "The timestamp supports that the money was returned later than originally implied."
+      },
+      "actionAnswer": "The basic return claim was partly true, but the timing was wrong. The confidence in the earlier version should be reduced."
+    },
+    {
+      "id": "v1_9_memory_error_keys_021",
+      "description": "Memory-error contradiction involving taking and returning keys. Batch round 6.",
+      "firstClaim": "I never took the keys.",
+      "secondClaim": "Actually, I took the keys yesterday but already returned them.",
+      "evidence": {
+        "direction": "supports",
+        "text": "There is a message confirming the keys were returned yesterday evening."
+      },
+      "actionAnswer": "I honestly forgot because it happened quickly yesterday. My earlier denial was a memory error, not an attempt to deceive."
+    },
+    {
+      "id": "v1_9_borrowed_phone_returned_022",
+      "description": "Borrowing contradiction involving borrowing and returning the phone. Batch round 6.",
+      "firstClaim": "I never borrowed the phone.",
+      "secondClaim": "Actually, I borrowed the phone last week but already returned it.",
+      "evidence": {
+        "direction": "supports",
+        "text": "There is a record showing the phone was borrowed and returned."
+      },
+      "actionAnswer": "I forgot because it happened earlier. The earlier denial was too absolute and should be weakened."
+    },
+    {
+      "id": "v1_9_scope_book_return_023",
+      "description": "Scope clarification involving what it meant to return the book. Batch round 6.",
+      "firstClaim": "I returned the book.",
+      "secondClaim": "Actually, I only returned part of the book situation, not everything connected to it.",
+      "evidence": {
+        "direction": "supports",
+        "text": "The evidence shows a partial return connected to the book, but not a complete resolution."
+      },
+      "actionAnswer": "My earlier claim was too broad. I meant the return was partially handled, not fully settled."
+    },
+    {
+      "id": "v1_9_partial_truth_money_024",
+      "description": "Partial-truth correction involving money repayment. Batch round 6.",
+      "firstClaim": "I already returned the money.",
+      "secondClaim": "I returned the money late, not when I first claimed.",
+      "evidence": {
+        "direction": "supports",
+        "text": "The timestamp supports that the money was returned later than originally implied."
+      },
+      "actionAnswer": "The basic return claim was partly true, but the timing was wrong. The confidence in the earlier version should be reduced."
+    },
+    {
+      "id": "v1_9_memory_error_keys_025",
+      "description": "Memory-error contradiction involving taking and returning keys. Batch round 7.",
+      "firstClaim": "I never took the keys.",
+      "secondClaim": "Actually, I took the keys yesterday but already returned them.",
+      "evidence": {
+        "direction": "supports",
+        "text": "There is a message confirming the keys were returned yesterday evening."
+      },
+      "actionAnswer": "I honestly forgot because it happened quickly yesterday. My earlier denial was a memory error, not an attempt to deceive."
+    },
+    {
+      "id": "v1_9_borrowed_phone_returned_026",
+      "description": "Borrowing contradiction involving borrowing and returning the phone. Batch round 7.",
+      "firstClaim": "I never borrowed the phone.",
+      "secondClaim": "Actually, I borrowed the phone last week but already returned it.",
+      "evidence": {
+        "direction": "supports",
+        "text": "There is a record showing the phone was borrowed and returned."
+      },
+      "actionAnswer": "I forgot because it happened earlier. The earlier denial was too absolute and should be weakened."
+    },
+    {
+      "id": "v1_9_scope_book_return_027",
+      "description": "Scope clarification involving what it meant to return the book. Batch round 7.",
+      "firstClaim": "I returned the book.",
+      "secondClaim": "Actually, I only returned part of the book situation, not everything connected to it.",
+      "evidence": {
+        "direction": "supports",
+        "text": "The evidence shows a partial return connected to the book, but not a complete resolution."
+      },
+      "actionAnswer": "My earlier claim was too broad. I meant the return was partially handled, not fully settled."
+    },
+    {
+      "id": "v1_9_partial_truth_money_028",
+      "description": "Partial-truth correction involving money repayment. Batch round 7.",
+      "firstClaim": "I already returned the money.",
+      "secondClaim": "I returned the money late, not when I first claimed.",
+      "evidence": {
+        "direction": "supports",
+        "text": "The timestamp supports that the money was returned later than originally implied."
+      },
+      "actionAnswer": "The basic return claim was partly true, but the timing was wrong. The confidence in the earlier version should be reduced."
+    },
+    {
+      "id": "v1_9_memory_error_keys_029",
+      "description": "Memory-error contradiction involving taking and returning keys. Batch round 8.",
+      "firstClaim": "I never took the keys.",
+      "secondClaim": "Actually, I took the keys yesterday but already returned them.",
+      "evidence": {
+        "direction": "supports",
+        "text": "There is a message confirming the keys were returned yesterday evening."
+      },
+      "actionAnswer": "I honestly forgot because it happened quickly yesterday. My earlier denial was a memory error, not an attempt to deceive."
+    },
+    {
+      "id": "v1_9_borrowed_phone_returned_030",
+      "description": "Borrowing contradiction involving borrowing and returning the phone. Batch round 8.",
+      "firstClaim": "I never borrowed the phone.",
+      "secondClaim": "Actually, I borrowed the phone last week but already returned it.",
+      "evidence": {
+        "direction": "supports",
+        "text": "There is a record showing the phone was borrowed and returned."
+      },
+      "actionAnswer": "I forgot because it happened earlier. The earlier denial was too absolute and should be weakened."
+    },
+    {
+      "id": "v1_9_scope_book_return_031",
+      "description": "Scope clarification involving what it meant to return the book. Batch round 8.",
+      "firstClaim": "I returned the book.",
+      "secondClaim": "Actually, I only returned part of the book situation, not everything connected to it.",
+      "evidence": {
+        "direction": "supports",
+        "text": "The evidence shows a partial return connected to the book, but not a complete resolution."
+      },
+      "actionAnswer": "My earlier claim was too broad. I meant the return was partially handled, not fully settled."
+    },
+    {
+      "id": "v1_9_partial_truth_money_032",
+      "description": "Partial-truth correction involving money repayment. Batch round 8.",
+      "firstClaim": "I already returned the money.",
+      "secondClaim": "I returned the money late, not when I first claimed.",
+      "evidence": {
+        "direction": "supports",
+        "text": "The timestamp supports that the money was returned later than originally implied."
+      },
+      "actionAnswer": "The basic return claim was partly true, but the timing was wrong. The confidence in the earlier version should be reduced."
+    },
+    {
+      "id": "v1_9_memory_error_keys_033",
+      "description": "Memory-error contradiction involving taking and returning keys. Batch round 9.",
+      "firstClaim": "I never took the keys.",
+      "secondClaim": "Actually, I took the keys yesterday but already returned them.",
+      "evidence": {
+        "direction": "supports",
+        "text": "There is a message confirming the keys were returned yesterday evening."
+      },
+      "actionAnswer": "I honestly forgot because it happened quickly yesterday. My earlier denial was a memory error, not an attempt to deceive."
+    },
+    {
+      "id": "v1_9_borrowed_phone_returned_034",
+      "description": "Borrowing contradiction involving borrowing and returning the phone. Batch round 9.",
+      "firstClaim": "I never borrowed the phone.",
+      "secondClaim": "Actually, I borrowed the phone last week but already returned it.",
+      "evidence": {
+        "direction": "supports",
+        "text": "There is a record showing the phone was borrowed and returned."
+      },
+      "actionAnswer": "I forgot because it happened earlier. The earlier denial was too absolute and should be weakened."
+    },
+    {
+      "id": "v1_9_scope_book_return_035",
+      "description": "Scope clarification involving what it meant to return the book. Batch round 9.",
+      "firstClaim": "I returned the book.",
+      "secondClaim": "Actually, I only returned part of the book situation, not everything connected to it.",
+      "evidence": {
+        "direction": "supports",
+        "text": "The evidence shows a partial return connected to the book, but not a complete resolution."
+      },
+      "actionAnswer": "My earlier claim was too broad. I meant the return was partially handled, not fully settled."
+    },
+    {
+      "id": "v1_9_partial_truth_money_036",
+      "description": "Partial-truth correction involving money repayment. Batch round 9.",
+      "firstClaim": "I already returned the money.",
+      "secondClaim": "I returned the money late, not when I first claimed.",
+      "evidence": {
+        "direction": "supports",
+        "text": "The timestamp supports that the money was returned later than originally implied."
+      },
+      "actionAnswer": "The basic return claim was partly true, but the timing was wrong. The confidence in the earlier version should be reduced."
+    },
+    {
+      "id": "v1_9_memory_error_keys_037",
+      "description": "Memory-error contradiction involving taking and returning keys. Batch round 10.",
+      "firstClaim": "I never took the keys.",
+      "secondClaim": "Actually, I took the keys yesterday but already returned them.",
+      "evidence": {
+        "direction": "supports",
+        "text": "There is a message confirming the keys were returned yesterday evening."
+      },
+      "actionAnswer": "I honestly forgot because it happened quickly yesterday. My earlier denial was a memory error, not an attempt to deceive."
+    },
+    {
+      "id": "v1_9_borrowed_phone_returned_038",
+      "description": "Borrowing contradiction involving borrowing and returning the phone. Batch round 10.",
+      "firstClaim": "I never borrowed the phone.",
+      "secondClaim": "Actually, I borrowed the phone last week but already returned it.",
+      "evidence": {
+        "direction": "supports",
+        "text": "There is a record showing the phone was borrowed and returned."
+      },
+      "actionAnswer": "I forgot because it happened earlier. The earlier denial was too absolute and should be weakened."
+    },
+    {
+      "id": "v1_9_scope_book_return_039",
+      "description": "Scope clarification involving what it meant to return the book. Batch round 10.",
+      "firstClaim": "I returned the book.",
+      "secondClaim": "Actually, I only returned part of the book situation, not everything connected to it.",
+      "evidence": {
+        "direction": "supports",
+        "text": "The evidence shows a partial return connected to the book, but not a complete resolution."
+      },
+      "actionAnswer": "My earlier claim was too broad. I meant the return was partially handled, not fully settled."
+    },
+    {
+      "id": "v1_9_partial_truth_money_040",
+      "description": "Partial-truth correction involving money repayment. Batch round 10.",
+      "firstClaim": "I already returned the money.",
+      "secondClaim": "I returned the money late, not when I first claimed.",
+      "evidence": {
+        "direction": "supports",
+        "text": "The timestamp supports that the money was returned later than originally implied."
+      },
+      "actionAnswer": "The basic return claim was partly true, but the timing was wrong. The confidence in the earlier version should be reduced."
+    },
+    {
+      "id": "v1_9_memory_error_keys_041",
+      "description": "Memory-error contradiction involving taking and returning keys. Batch round 11.",
+      "firstClaim": "I never took the keys.",
+      "secondClaim": "Actually, I took the keys yesterday but already returned them.",
+      "evidence": {
+        "direction": "supports",
+        "text": "There is a message confirming the keys were returned yesterday evening."
+      },
+      "actionAnswer": "I honestly forgot because it happened quickly yesterday. My earlier denial was a memory error, not an attempt to deceive."
+    },
+    {
+      "id": "v1_9_borrowed_phone_returned_042",
+      "description": "Borrowing contradiction involving borrowing and returning the phone. Batch round 11.",
+      "firstClaim": "I never borrowed the phone.",
+      "secondClaim": "Actually, I borrowed the phone last week but already returned it.",
+      "evidence": {
+        "direction": "supports",
+        "text": "There is a record showing the phone was borrowed and returned."
+      },
+      "actionAnswer": "I forgot because it happened earlier. The earlier denial was too absolute and should be weakened."
+    },
+    {
+      "id": "v1_9_scope_book_return_043",
+      "description": "Scope clarification involving what it meant to return the book. Batch round 11.",
+      "firstClaim": "I returned the book.",
+      "secondClaim": "Actually, I only returned part of the book situation, not everything connected to it.",
+      "evidence": {
+        "direction": "supports",
+        "text": "The evidence shows a partial return connected to the book, but not a complete resolution."
+      },
+      "actionAnswer": "My earlier claim was too broad. I meant the return was partially handled, not fully settled."
+    },
+    {
+      "id": "v1_9_partial_truth_money_044",
+      "description": "Partial-truth correction involving money repayment. Batch round 11.",
+      "firstClaim": "I already returned the money.",
+      "secondClaim": "I returned the money late, not when I first claimed.",
+      "evidence": {
+        "direction": "supports",
+        "text": "The timestamp supports that the money was returned later than originally implied."
+      },
+      "actionAnswer": "The basic return claim was partly true, but the timing was wrong. The confidence in the earlier version should be reduced."
+    },
+    {
+      "id": "v1_9_memory_error_keys_045",
+      "description": "Memory-error contradiction involving taking and returning keys. Batch round 12.",
+      "firstClaim": "I never took the keys.",
+      "secondClaim": "Actually, I took the keys yesterday but already returned them.",
+      "evidence": {
+        "direction": "supports",
+        "text": "There is a message confirming the keys were returned yesterday evening."
+      },
+      "actionAnswer": "I honestly forgot because it happened quickly yesterday. My earlier denial was a memory error, not an attempt to deceive."
+    },
+    {
+      "id": "v1_9_borrowed_phone_returned_046",
+      "description": "Borrowing contradiction involving borrowing and returning the phone. Batch round 12.",
+      "firstClaim": "I never borrowed the phone.",
+      "secondClaim": "Actually, I borrowed the phone last week but already returned it.",
+      "evidence": {
+        "direction": "supports",
+        "text": "There is a record showing the phone was borrowed and returned."
+      },
+      "actionAnswer": "I forgot because it happened earlier. The earlier denial was too absolute and should be weakened."
+    },
+    {
+      "id": "v1_9_scope_book_return_047",
+      "description": "Scope clarification involving what it meant to return the book. Batch round 12.",
+      "firstClaim": "I returned the book.",
+      "secondClaim": "Actually, I only returned part of the book situation, not everything connected to it.",
+      "evidence": {
+        "direction": "supports",
+        "text": "The evidence shows a partial return connected to the book, but not a complete resolution."
+      },
+      "actionAnswer": "My earlier claim was too broad. I meant the return was partially handled, not fully settled."
+    },
+    {
+      "id": "v1_9_partial_truth_money_048",
+      "description": "Partial-truth correction involving money repayment. Batch round 12.",
+      "firstClaim": "I already returned the money.",
+      "secondClaim": "I returned the money late, not when I first claimed.",
+      "evidence": {
+        "direction": "supports",
+        "text": "The timestamp supports that the money was returned later than originally implied."
+      },
+      "actionAnswer": "The basic return claim was partly true, but the timing was wrong. The confidence in the earlier version should be reduced."
+    },
+    {
+      "id": "v1_9_memory_error_keys_049",
+      "description": "Memory-error contradiction involving taking and returning keys. Batch round 13.",
+      "firstClaim": "I never took the keys.",
+      "secondClaim": "Actually, I took the keys yesterday but already returned them.",
+      "evidence": {
+        "direction": "supports",
+        "text": "There is a message confirming the keys were returned yesterday evening."
+      },
+      "actionAnswer": "I honestly forgot because it happened quickly yesterday. My earlier denial was a memory error, not an attempt to deceive."
+    },
+    {
+      "id": "v1_9_borrowed_phone_returned_050",
+      "description": "Borrowing contradiction involving borrowing and returning the phone. Batch round 13.",
+      "firstClaim": "I never borrowed the phone.",
+      "secondClaim": "Actually, I borrowed the phone last week but already returned it.",
+      "evidence": {
+        "direction": "supports",
+        "text": "There is a record showing the phone was borrowed and returned."
+      },
+      "actionAnswer": "I forgot because it happened earlier. The earlier denial was too absolute and should be weakened."
+    }
+  ]
+}

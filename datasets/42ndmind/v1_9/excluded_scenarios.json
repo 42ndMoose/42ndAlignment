@@ -1,0 +1,86 @@
+[
+  {
+    "id": "v1_9_partial_truth_money_004",
+    "validation_status": "pass",
+    "quality_status": "fail",
+    "quality_score": 0.8,
+    "reason": "Scenario failed validation and/or quality gate."
+  },
+  {
+    "id": "v1_9_partial_truth_money_008",
+    "validation_status": "pass",
+    "quality_status": "fail",
+    "quality_score": 0.8,
+    "reason": "Scenario failed validation and/or quality gate."
+  },
+  {
+    "id": "v1_9_partial_truth_money_012",
+    "validation_status": "pass",
+    "quality_status": "fail",
+    "quality_score": 0.8,
+    "reason": "Scenario failed validation and/or quality gate."
+  },
+  {
+    "id": "v1_9_partial_truth_money_016",
+    "validation_status": "pass",
+    "quality_status": "fail",
+    "quality_score": 0.8,
+    "reason": "Scenario failed validation and/or quality gate."
+  },
+  {
+    "id": "v1_9_partial_truth_money_020",
+    "validation_status": "pass",
+    "quality_status": "fail",
+    "quality_score": 0.8,
+    "reason": "Scenario failed validation and/or quality gate."
+  },
+  {
+    "id": "v1_9_partial_truth_money_024",
+    "validation_status": "pass",
+    "quality_status": "fail",
+    "quality_score": 0.8,
+    "reason": "Scenario failed validation and/or quality gate."
+  },
+  {
+    "id": "v1_9_partial_truth_money_028",
+    "validation_status": "pass",
+    "quality_status": "fail",
+    "quality_score": 0.8,
+    "reason": "Scenario failed validation and/or quality gate."
+  },
+  {
+    "id": "v1_9_partial_truth_money_032",
+    "validation_status": "pass",
+    "quality_status": "fail",
+    "quality_score": 0.8,
+    "reason": "Scenario failed validation and/or quality gate."
+  },
+  {
+    "id": "v1_9_partial_truth_money_036",
+    "validation_status": "pass",
+    "quality_status": "fail",
+    "quality_score": 0.8,
+    "reason": "Scenario failed validation and/or quality gate."
+  },
+  {
+    "id": "v1_9_partial_truth_money_040",
+    "validation_status": "pass",
+    "quality_status": "fail",
+    "quality_score": 0.8,
+    "reason": "Scenario failed validation and/or quality gate."
+  },
+  {
+    "id": "v1_9_partial_truth_money_044",
+    "validation_status": "pass",
+    "quality_status": "fail",
+    "quality_score": 0.8,
+    "reason": "Scenario failed validation and/or quality gate."
+  },
+  {
+    "id": "v1_9_partial_truth_money_048",
+    "validation_status": "pass",
+    "quality_status": "fail",
+    "quality_score": 0.8,
+    "reason": "Scenario failed validation and/or quality gate."
+  }
+]

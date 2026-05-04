@@ -1,0 +1,404 @@
+{
+  "created_at": "2026-05-04T22:34:17.524Z",
+  "gating": {
+    "mode": "validation_and_quality_pass_only",
+    "required_validation_status": "pass",
+    "required_quality_status": "pass"
+  },
+  "included_scenarios": [
+    {
+      "id": "v1_9_memory_error_keys_001",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v1_9_borrowed_phone_returned_002",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v1_9_scope_book_return_003",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v1_9_memory_error_keys_005",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v1_9_borrowed_phone_returned_006",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v1_9_scope_book_return_007",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v1_9_memory_error_keys_009",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v1_9_borrowed_phone_returned_010",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v1_9_scope_book_return_011",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v1_9_memory_error_keys_013",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v1_9_borrowed_phone_returned_014",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v1_9_scope_book_return_015",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v1_9_memory_error_keys_017",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v1_9_borrowed_phone_returned_018",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v1_9_scope_book_return_019",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v1_9_memory_error_keys_021",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v1_9_borrowed_phone_returned_022",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v1_9_scope_book_return_023",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v1_9_memory_error_keys_025",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v1_9_borrowed_phone_returned_026",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v1_9_scope_book_return_027",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v1_9_memory_error_keys_029",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v1_9_borrowed_phone_returned_030",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v1_9_scope_book_return_031",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v1_9_memory_error_keys_033",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v1_9_borrowed_phone_returned_034",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v1_9_scope_book_return_035",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v1_9_memory_error_keys_037",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v1_9_borrowed_phone_returned_038",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v1_9_scope_book_return_039",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v1_9_memory_error_keys_041",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v1_9_borrowed_phone_returned_042",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v1_9_scope_book_return_043",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v1_9_memory_error_keys_045",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v1_9_borrowed_phone_returned_046",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v1_9_scope_book_return_047",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v1_9_memory_error_keys_049",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v1_9_borrowed_phone_returned_050",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    }
+  ],
+  "excluded_scenarios": [
+    {
+      "id": "v1_9_partial_truth_money_004",
+      "validation_status": "pass",
+      "quality_status": "fail",
+      "quality_score": 0.8,
+      "reason": "Scenario failed validation and/or quality gate."
+    },
+    {
+      "id": "v1_9_partial_truth_money_008",
+      "validation_status": "pass",
+      "quality_status": "fail",
+      "quality_score": 0.8,
+      "reason": "Scenario failed validation and/or quality gate."
+    },
+    {
+      "id": "v1_9_partial_truth_money_012",
+      "validation_status": "pass",
+      "quality_status": "fail",
+      "quality_score": 0.8,
+      "reason": "Scenario failed validation and/or quality gate."
+    },
+    {
+      "id": "v1_9_partial_truth_money_016",
+      "validation_status": "pass",
+      "quality_status": "fail",
+      "quality_score": 0.8,
+      "reason": "Scenario failed validation and/or quality gate."
+    },
+    {
+      "id": "v1_9_partial_truth_money_020",
+      "validation_status": "pass",
+      "quality_status": "fail",
+      "quality_score": 0.8,
+      "reason": "Scenario failed validation and/or quality gate."
+    },
+    {
+      "id": "v1_9_partial_truth_money_024",
+      "validation_status": "pass",
+      "quality_status": "fail",
+      "quality_score": 0.8,
+      "reason": "Scenario failed validation and/or quality gate."
+    },
+    {
+      "id": "v1_9_partial_truth_money_028",
+      "validation_status": "pass",
+      "quality_status": "fail",
+      "quality_score": 0.8,
+      "reason": "Scenario failed validation and/or quality gate."
+    },
+    {
+      "id": "v1_9_partial_truth_money_032",
+      "validation_status": "pass",
+      "quality_status": "fail",
+      "quality_score": 0.8,
+      "reason": "Scenario failed validation and/or quality gate."
+    },
+    {
+      "id": "v1_9_partial_truth_money_036",
+      "validation_status": "pass",
+      "quality_status": "fail",
+      "quality_score": 0.8,
+      "reason": "Scenario failed validation and/or quality gate."
+    },
+    {
+      "id": "v1_9_partial_truth_money_040",
+      "validation_status": "pass",
+      "quality_status": "fail",
+      "quality_score": 0.8,
+      "reason": "Scenario failed validation and/or quality gate."
+    },
+    {
+      "id": "v1_9_partial_truth_money_044",
+      "validation_status": "pass",
+      "quality_status": "fail",
+      "quality_score": 0.8,
+      "reason": "Scenario failed validation and/or quality gate."
+    },
+    {
+      "id": "v1_9_partial_truth_money_048",
+      "validation_status": "pass",
+      "quality_status": "fail",
+      "quality_score": 0.8,
+      "reason": "Scenario failed validation and/or quality gate."
+    }
+  ],
+  "row_counts": {
+    "sft_rows": 190,
+    "preference_rows": 190
+  }
+}
