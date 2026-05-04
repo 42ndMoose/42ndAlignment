@@ -1,0 +1,671 @@
+{
+  "created_at": "2026-05-04T20:53:52.289Z",
+  "scenarioFile": "data/example_scenarios.json",
+  "scenario_count": 2,
+  "scenarios": [
+    {
+      "id": "keys_memory_error",
+      "description": "Contradiction explained by forgetting where keys were placed.",
+      "scenarioDir": "data/custom_scenario_runs.local/keys_memory_error",
+      "first": {
+        "input": "I never took the keys.",
+        "tensions": [
+          {
+            "type": "unsupported_confidence",
+            "status": "unresolved",
+            "severity": 0.72
+          },
+          {
+            "type": "absolute_language",
+            "status": "unresolved",
+            "severity": 0.45
+          }
+        ],
+        "contradictions": [],
+        "summary": {
+          "claims": 1,
+          "evidence": 0,
+          "tensions": 2,
+          "contradictions": 0,
+          "hypotheses": 2,
+          "openInquiryTasks": 2,
+          "motiveModels": 0,
+          "investigationPlans": 0,
+          "openInvestigationActions": 0,
+          "actionAnswerClassifications": 0,
+          "beliefUpdates": 1
+        }
+      },
+      "second": {
+        "input": "Actually, I took the keys yesterday but already returned them.",
+        "tensions": [
+          {
+            "type": "direct_contradiction_absolute_denial_broken",
+            "status": "unresolved",
+            "severity": 0.9
+          }
+        ],
+        "contradictions": [
+          {
+            "type": "direct_contradiction_absolute_denial_broken",
+            "status": "unresolved",
+            "severity": 0.9
+          }
+        ],
+        "summary": {
+          "claims": 2,
+          "evidence": 0,
+          "tensions": 3,
+          "contradictions": 1,
+          "hypotheses": 7,
+          "openInquiryTasks": 3,
+          "motiveModels": 5,
+          "investigationPlans": 0,
+          "openInvestigationActions": 0,
+          "actionAnswerClassifications": 0,
+          "beliefUpdates": 3
+        }
+      },
+      "evidence": {
+        "id": "evidence_morog1ke_5r9l07jp",
+        "claim_id": "claim_morog1ka_2qasl7jy",
+        "direction": "supports",
+        "text": "There is a timestamped message saying the keys were returned.",
+        "strength": 0.22,
+        "source": "user",
+        "created_at": "2026-05-04T20:53:52.238Z"
+      },
+      "review": {
+        "status": {
+          "claims": 2,
+          "evidence": 1,
+          "tensions": 3,
+          "contradictions": 1,
+          "hypotheses": 7,
+          "openInquiryTasks": 0,
+          "motiveModels": 5,
+          "investigationPlans": 0,
+          "openInvestigationActions": 0,
+          "actionAnswerClassifications": 0,
+          "beliefUpdates": 8
+        }
+      },
+      "plan": {
+        "next_best_action": {
+          "id": "plan_item_morog1kk_kxtgj7ou",
+          "plan_type": "motive_discrimination",
+          "priority": 0.86,
+          "focus": "Distinguish between competing motive/context explanations.",
+          "reason": "Top motive \"correction_or_clarification\" is not strongly separated from runner-up \"wording_or_scope_shift\".",
+          "related_contradiction": "contradiction_morog1ka_z2ix7fdo",
+          "motive_candidates": [
+            {
+              "motive_id": "motive_morog1kb_zyiq429l",
+              "motive_type": "correction_or_clarification",
+              "confidence": 0.52,
+              "status": "strengthened_by_repair_evidence"
+            },
+            {
+              "motive_id": "motive_morog1kb_5zoujpys",
+              "motive_type": "wording_or_scope_shift",
+              "confidence": 0.36,
+              "status": "slightly_strengthened_by_scope_evidence"
+            },
+            {
+              "motive_id": "motive_morog1kb_bkv21jr8",
+              "motive_type": "avoid_blame_or_consequence",
+              "confidence": 0.33,
+              "status": "still_live_low_change"
+            },
+            {
+              "motive_id": "motive_morog1kb_6l3xw493",
+              "motive_type": "memory_error",
+              "confidence": 0.25,
+              "status": "still_live_low_change"
+            },
+            {
+              "motive_id": "motive_morog1kb_dmehpp8j",
+              "motive_type": "strategic_deception",
+              "confidence": 0.24,
+              "status": "still_live_low_change"
+            }
+          ],
+          "suggested_actions": [
+            {
+              "action_type": "ask_user_for_context",
+              "prompt": "What was the exact reason the earlier statement was phrased as an absolute denial?"
+            },
+            {
+              "action_type": "ask_user_for_timeline",
+              "prompt": "What happened first, what was said next, and when did the correction happen?"
+            },
+            {
+              "action_type": "ask_for_discriminating_evidence",
+              "prompt": "What evidence would separate correction, memory error, wording shift, and deliberate deception?"
+            }
+          ]
+        }
+      },
+      "nextAction": {
+        "id": "action_morog1kl_l88ngjpn",
+        "status": "open",
+        "action_type": "ask_for_discriminating_evidence",
+        "prompt": "What evidence would separate correction, memory error, wording shift, and deliberate deception?",
+        "source_plan": "plan_morog1kk_661iij0p",
+        "source_plan_item": "plan_item_morog1kk_kxtgj7ou",
+        "related_contradiction": "contradiction_morog1ka_z2ix7fdo",
+        "reason": "Top motive \"correction_or_clarification\" is not strongly separated from runner-up \"wording_or_scope_shift\".",
+        "expected_answer_kind": "evidence_or_discriminator",
+        "created_at": "2026-05-04T20:53:52.245Z"
+      },
+      "answer": {
+        "classification": {
+          "id": "classification_morog1ko_1bb3q7zh",
+          "action_id": "action_morog1kl_l88ngjpn",
+          "response_id": "action_response_morog1kn_ml6p9cdf",
+          "evidence_id": "evidence_morog1kn_8wmmt0f9",
+          "classification_type": "memory_error_clarification",
+          "confidence": 0.78,
+          "reason": "The answer explicitly attributes the contradiction to forgetting or memory error.",
+          "contradiction_status": "resolved_memory_error_claimed",
+          "effects": [
+            {
+              "target_kind": "motive_type",
+              "target": "memory_error",
+              "delta": 0.32,
+              "status": "strongly_supported_by_action_answer",
+              "reason": "The answer directly says the earlier denial was caused by memory error."
+            },
+            {
+              "target_kind": "motive_type",
+              "target": "strategic_deception",
+              "delta": -0.13,
+              "status": "weakened_by_memory_explanation",
+              "reason": "A memory-error explanation weakens deliberate deception unless other signals appear."
+            },
+            {
+              "target_kind": "motive_type",
+              "target": "avoid_blame_or_consequence",
+              "delta": -0.06,
+              "status": "weakened_by_memory_explanation",
+              "reason": "Memory error weakens avoidance motive unless independent incentive evidence appears."
+            },
+            {
+              "target_kind": "hypothesis_type",
+              "target": "claim_incomplete_or_mistaken",
+              "delta": 0.18,
+              "status": "strongly_supported_by_action_answer",
+              "reason": "The answer supports the earlier claim being mistaken."
+            },
+            {
+              "target_kind": "hypothesis_type",
+              "target": "deception_memory_or_wording_shift",
+              "delta": 0.1,
+              "status": "memory_shift_supported",
+              "reason": "The answer supports the memory-error branch of this broader hypothesis."
+            },
+            {
+              "target_kind": "earlier_absolute_claim",
+              "target": "claim_a",
+              "delta": -0.05,
+              "status": "weakened_as_literal_absolute_but_explained_by_memory",
+              "reason": "The literal absolute denial remains false, but the memory-error explanation is now clearer."
+            }
+          ],
+          "created_at": "2026-05-04T20:53:52.248Z"
+        }
+      },
+      "traceExport": {
+        "outputPath": "data/custom_scenario_runs.local/keys_memory_error/training_traces.jsonl",
+        "count": 5,
+        "traceTypes": [
+          "contradiction_detection",
+          "motive_modeling",
+          "investigation_planning",
+          "action_answer_classification",
+          "full_epistemic_trajectory"
+        ],
+        "summary": {
+          "claims": 2,
+          "evidence": 2,
+          "tensions": 3,
+          "contradictions": 1,
+          "hypotheses": 7,
+          "openInquiryTasks": 0,
+          "motiveModels": 5,
+          "investigationPlans": 1,
+          "openInvestigationActions": 0,
+          "actionAnswerClassifications": 1,
+          "beliefUpdates": 11
+        }
+      },
+      "alignmentExport": {
+        "outputPath": "data/custom_scenario_runs.local/keys_memory_error/alignment_sft.jsonl",
+        "manifestPath": "data/custom_scenario_runs.local/keys_memory_error/alignment_manifest.json",
+        "row_count": 5,
+        "trace_types": {
+          "contradiction_detection": 1,
+          "motive_modeling": 1,
+          "investigation_planning": 1,
+          "action_answer_classification": 1,
+          "full_epistemic_trajectory": 1
+        },
+        "summary": {
+          "claims": 2,
+          "evidence": 2,
+          "tensions": 3,
+          "contradictions": 1,
+          "hypotheses": 7,
+          "openInquiryTasks": 0,
+          "motiveModels": 5,
+          "investigationPlans": 1,
+          "openInvestigationActions": 0,
+          "actionAnswerClassifications": 1,
+          "beliefUpdates": 11
+        }
+      },
+      "preferenceExport": {
+        "outputPath": "data/custom_scenario_runs.local/keys_memory_error/preference_pairs.jsonl",
+        "manifestPath": "data/custom_scenario_runs.local/keys_memory_error/preference_manifest.json",
+        "row_count": 5,
+        "trace_types": {
+          "contradiction_detection": 1,
+          "motive_modeling": 1,
+          "investigation_planning": 1,
+          "action_answer_classification": 1,
+          "full_epistemic_trajectory": 1
+        },
+        "summary": {
+          "claims": 2,
+          "evidence": 2,
+          "tensions": 3,
+          "contradictions": 1,
+          "hypotheses": 7,
+          "openInquiryTasks": 0,
+          "motiveModels": 5,
+          "investigationPlans": 1,
+          "openInvestigationActions": 0,
+          "actionAnswerClassifications": 1,
+          "beliefUpdates": 11
+        }
+      },
+      "validation": {
+        "status": "pass",
+        "summary": {
+          "sft_rows": 5,
+          "preference_rows": 5,
+          "total_errors": 0,
+          "total_warnings": 0
+        }
+      },
+      "quality": {
+        "status": "pass",
+        "score": 1,
+        "summary": {
+          "total_checks": 6,
+          "passed": 6,
+          "failed": 0,
+          "high_failures": 0,
+          "medium_failures": 0
+        }
+      },
+      "finalSummary": {
+        "claims": 2,
+        "evidence": 2,
+        "tensions": 3,
+        "contradictions": 1,
+        "hypotheses": 7,
+        "openInquiryTasks": 0,
+        "motiveModels": 5,
+        "investigationPlans": 1,
+        "openInvestigationActions": 0,
+        "actionAnswerClassifications": 1,
+        "beliefUpdates": 11
+      }
+    },
+    {
+      "id": "car_scope_clarification",
+      "description": "Using the car versus currently having the car.",
+      "scenarioDir": "data/custom_scenario_runs.local/car_scope_clarification",
+      "first": {
+        "input": "I never used the car.",
+        "tensions": [
+          {
+            "type": "unsupported_confidence",
+            "status": "unresolved",
+            "severity": 0.72
+          },
+          {
+            "type": "absolute_language",
+            "status": "unresolved",
+            "severity": 0.45
+          }
+        ],
+        "contradictions": [],
+        "summary": {
+          "claims": 1,
+          "evidence": 0,
+          "tensions": 2,
+          "contradictions": 0,
+          "hypotheses": 2,
+          "openInquiryTasks": 2,
+          "motiveModels": 0,
+          "investigationPlans": 0,
+          "openInvestigationActions": 0,
+          "actionAnswerClassifications": 0,
+          "beliefUpdates": 1
+        }
+      },
+      "second": {
+        "input": "Actually, I used the car last week but already brought it back.",
+        "tensions": [
+          {
+            "type": "direct_contradiction_absolute_denial_broken",
+            "status": "unresolved",
+            "severity": 0.9
+          }
+        ],
+        "contradictions": [
+          {
+            "type": "direct_contradiction_absolute_denial_broken",
+            "status": "unresolved",
+            "severity": 0.9
+          }
+        ],
+        "summary": {
+          "claims": 2,
+          "evidence": 0,
+          "tensions": 3,
+          "contradictions": 1,
+          "hypotheses": 7,
+          "openInquiryTasks": 3,
+          "motiveModels": 5,
+          "investigationPlans": 0,
+          "openInvestigationActions": 0,
+          "actionAnswerClassifications": 0,
+          "beliefUpdates": 3
+        }
+      },
+      "evidence": {
+        "id": "evidence_morog1l7_e1givt56",
+        "claim_id": "claim_morog1l5_7363sgp0",
+        "direction": "supports",
+        "text": "There is a parking record showing the car was brought back.",
+        "strength": 0.22,
+        "source": "user",
+        "created_at": "2026-05-04T20:53:52.267Z"
+      },
+      "review": {
+        "status": {
+          "claims": 2,
+          "evidence": 1,
+          "tensions": 3,
+          "contradictions": 1,
+          "hypotheses": 7,
+          "openInquiryTasks": 0,
+          "motiveModels": 5,
+          "investigationPlans": 0,
+          "openInvestigationActions": 0,
+          "actionAnswerClassifications": 0,
+          "beliefUpdates": 8
+        }
+      },
+      "plan": {
+        "next_best_action": {
+          "id": "plan_item_morog1la_ldktk8ft",
+          "plan_type": "motive_discrimination",
+          "priority": 0.86,
+          "focus": "Distinguish between competing motive/context explanations.",
+          "reason": "Top motive \"correction_or_clarification\" is not strongly separated from runner-up \"wording_or_scope_shift\".",
+          "related_contradiction": "contradiction_morog1l5_bz0efng6",
+          "motive_candidates": [
+            {
+              "motive_id": "motive_morog1l5_jm8l3y7s",
+              "motive_type": "correction_or_clarification",
+              "confidence": 0.44,
+              "status": "still_live_low_change"
+            },
+            {
+              "motive_id": "motive_morog1l5_jtcb9fbl",
+              "motive_type": "wording_or_scope_shift",
+              "confidence": 0.33,
+              "status": "still_live_low_change"
+            },
+            {
+              "motive_id": "motive_morog1l5_rv5q9116",
+              "motive_type": "avoid_blame_or_consequence",
+              "confidence": 0.32,
+              "status": "still_live_low_change"
+            },
+            {
+              "motive_id": "motive_morog1l5_yjno8ehn",
+              "motive_type": "memory_error",
+              "confidence": 0.26,
+              "status": "still_live_low_change"
+            },
+            {
+              "motive_id": "motive_morog1l5_2r4ad9t9",
+              "motive_type": "strategic_deception",
+              "confidence": 0.24,
+              "status": "still_live_low_change"
+            }
+          ],
+          "suggested_actions": [
+            {
+              "action_type": "ask_user_for_context",
+              "prompt": "What was the exact reason the earlier statement was phrased as an absolute denial?"
+            },
+            {
+              "action_type": "ask_user_for_timeline",
+              "prompt": "What happened first, what was said next, and when did the correction happen?"
+            },
+            {
+              "action_type": "ask_for_discriminating_evidence",
+              "prompt": "What evidence would separate correction, memory error, wording shift, and deliberate deception?"
+            }
+          ]
+        }
+      },
+      "nextAction": {
+        "id": "action_morog1lb_2fegb66g",
+        "status": "open",
+        "action_type": "ask_for_discriminating_evidence",
+        "prompt": "What evidence would separate correction, memory error, wording shift, and deliberate deception?",
+        "source_plan": "plan_morog1la_24i22zi8",
+        "source_plan_item": "plan_item_morog1la_ldktk8ft",
+        "related_contradiction": "contradiction_morog1l5_bz0efng6",
+        "reason": "Top motive \"correction_or_clarification\" is not strongly separated from runner-up \"wording_or_scope_shift\".",
+        "expected_answer_kind": "evidence_or_discriminator",
+        "created_at": "2026-05-04T20:53:52.271Z"
+      },
+      "answer": {
+        "classification": {
+          "id": "classification_morog1ld_m8vomfp6",
+          "action_id": "action_morog1lb_2fegb66g",
+          "response_id": "action_response_morog1ld_pz55x3qe",
+          "evidence_id": "evidence_morog1ld_sy8b34lb",
+          "classification_type": "scope_clarification_current_owed_vs_ever_borrowed",
+          "confidence": 0.86,
+          "reason": "The answer explicitly distinguishes current debt from ever having borrowed.",
+          "contradiction_status": "resolved_scope_clarified",
+          "effects": [
+            {
+              "target_kind": "motive_type",
+              "target": "wording_or_scope_shift",
+              "delta": 0.28,
+              "status": "strongly_supported_by_action_answer",
+              "reason": "The answer directly says the earlier denial used a different scope."
+            },
+            {
+              "target_kind": "motive_type",
+              "target": "correction_or_clarification",
+              "delta": 0.1,
+              "status": "strengthened_by_action_answer",
+              "reason": "The answer clarifies why the later statement corrected the earlier one."
+            },
+            {
+              "target_kind": "motive_type",
+              "target": "strategic_deception",
+              "delta": -0.12,
+              "status": "weakened_by_scope_clarification",
+              "reason": "A clear scope explanation weakens deliberate deception relative to wording/scope shift."
+            },
+            {
+              "target_kind": "motive_type",
+              "target": "memory_error",
+              "delta": -0.05,
+              "status": "weakened_by_scope_clarification",
+              "reason": "The answer gives a scope explanation rather than a memory failure explanation."
+            },
+            {
+              "target_kind": "motive_type",
+              "target": "avoid_blame_or_consequence",
+              "delta": -0.04,
+              "status": "slightly_weakened_by_scope_clarification",
+              "reason": "Scope clarification weakens avoidance motive unless other signals appear."
+            },
+            {
+              "target_kind": "hypothesis_type",
+              "target": "earlier_false_overbroad_or_contextual",
+              "delta": 0.2,
+              "status": "strongly_supported_by_action_answer",
+              "reason": "The answer directly supports the earlier claim being overbroad/contextual."
+            },
+            {
+              "target_kind": "hypothesis_type",
+              "target": "deception_memory_or_wording_shift",
+              "delta": 0.08,
+              "status": "wording_shift_supported",
+              "reason": "The answer supports wording/scope shift inside this broader hypothesis."
+            },
+            {
+              "target_kind": "earlier_absolute_claim",
+              "target": "claim_a",
+              "delta": -0.06,
+              "status": "weakened_as_literal_absolute_but_explained_by_scope",
+              "reason": "The literal absolute denial remains false, but the context is now clearer."
+            }
+          ],
+          "created_at": "2026-05-04T20:53:52.273Z"
+        }
+      },
+      "traceExport": {
+        "outputPath": "data/custom_scenario_runs.local/car_scope_clarification/training_traces.jsonl",
+        "count": 5,
+        "traceTypes": [
+          "contradiction_detection",
+          "motive_modeling",
+          "investigation_planning",
+          "action_answer_classification",
+          "full_epistemic_trajectory"
+        ],
+        "summary": {
+          "claims": 2,
+          "evidence": 2,
+          "tensions": 3,
+          "contradictions": 1,
+          "hypotheses": 7,
+          "openInquiryTasks": 0,
+          "motiveModels": 5,
+          "investigationPlans": 1,
+          "openInvestigationActions": 0,
+          "actionAnswerClassifications": 1,
+          "beliefUpdates": 11
+        }
+      },
+      "alignmentExport": {
+        "outputPath": "data/custom_scenario_runs.local/car_scope_clarification/alignment_sft.jsonl",
+        "manifestPath": "data/custom_scenario_runs.local/car_scope_clarification/alignment_manifest.json",
+        "row_count": 5,
+        "trace_types": {
+          "contradiction_detection": 1,
+          "motive_modeling": 1,
+          "investigation_planning": 1,
+          "action_answer_classification": 1,
+          "full_epistemic_trajectory": 1
+        },
+        "summary": {
+          "claims": 2,
+          "evidence": 2,
+          "tensions": 3,
+          "contradictions": 1,
+          "hypotheses": 7,
+          "openInquiryTasks": 0,
+          "motiveModels": 5,
+          "investigationPlans": 1,
+          "openInvestigationActions": 0,
+          "actionAnswerClassifications": 1,
+          "beliefUpdates": 11
+        }
+      },
+      "preferenceExport": {
+        "outputPath": "data/custom_scenario_runs.local/car_scope_clarification/preference_pairs.jsonl",
+        "manifestPath": "data/custom_scenario_runs.local/car_scope_clarification/preference_manifest.json",
+        "row_count": 5,
+        "trace_types": {
+          "contradiction_detection": 1,
+          "motive_modeling": 1,
+          "investigation_planning": 1,
+          "action_answer_classification": 1,
+          "full_epistemic_trajectory": 1
+        },
+        "summary": {
+          "claims": 2,
+          "evidence": 2,
+          "tensions": 3,
+          "contradictions": 1,
+          "hypotheses": 7,
+          "openInquiryTasks": 0,
+          "motiveModels": 5,
+          "investigationPlans": 1,
+          "openInvestigationActions": 0,
+          "actionAnswerClassifications": 1,
+          "beliefUpdates": 11
+        }
+      },
+      "validation": {
+        "status": "pass",
+        "summary": {
+          "sft_rows": 5,
+          "preference_rows": 5,
+          "total_errors": 0,
+          "total_warnings": 0
+        }
+      },
+      "quality": {
+        "status": "pass",
+        "score": 1,
+        "summary": {
+          "total_checks": 6,
+          "passed": 6,
+          "failed": 0,
+          "high_failures": 0,
+          "medium_failures": 0
+        }
+      },
+      "finalSummary": {
+        "claims": 2,
+        "evidence": 2,
+        "tensions": 3,
+        "contradictions": 1,
+        "hypotheses": 7,
+        "openInquiryTasks": 0,
+        "motiveModels": 5,
+        "investigationPlans": 1,
+        "openInvestigationActions": 0,
+        "actionAnswerClassifications": 1,
+        "beliefUpdates": 11
+      }
+    }
+  ],
+  "combined": {
+    "combinedSftPath": "data/custom_scenario_runs.local/combined_alignment_sft.jsonl",
+    "combinedPreferencePath": "data/custom_scenario_runs.local/combined_preference_pairs.jsonl",
+    "combinedManifestPath": "data/custom_scenario_runs.local/combined_manifest.json",
+    "excludedPath": "data/custom_scenario_runs.local/excluded_scenarios.json",
+    "included_scenarios": 2,
+    "excluded_scenarios": 0,
+    "sft_rows": 10,
+    "preference_rows": 10
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "created_at": "2026-05-04T20:53:52.288Z",
+  "gating": {
+    "mode": "validation_and_quality_pass_only",
+    "required_validation_status": "pass",
+    "required_quality_status": "pass"
+  },
+  "included_scenarios": [
+    {
+      "id": "keys_memory_error",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "car_scope_clarification",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    }
+  ],
+  "excluded_scenarios": [],
+  "row_counts": {
+    "sft_rows": 10,
+    "preference_rows": 10
+  }
+}
