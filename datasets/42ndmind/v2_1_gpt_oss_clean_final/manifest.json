@@ -1,0 +1,23 @@
+{
+  "dataset": "42ndmind_v2_1_gpt_oss_clean_final",
+  "created_from": "42ndmind_v2_0_broad_dataset/v2_0_broad_test_scenarios.json",
+  "row_counts": {
+    "total": 50,
+    "train": 40,
+    "eval": 10
+  },
+  "target_style": "clean user-facing full epistemic trajectory, no JSON, no fake IDs, no symbolic jargon",
+  "category_counts": {
+    "timeline_contradiction": 5,
+    "intentional_deception": 5,
+    "ideological_self_sealing": 5,
+    "scope_clarification": 5,
+    "mistaken_accusation": 5,
+    "self_serving_claim": 5,
+    "partial_truth": 5,
+    "false_certainty": 5,
+    "memory_error": 5,
+    "motive_ambiguity": 5
+  },
+  "known_reason": "Created after gpt-oss low-RAM LoRA failed due to unstable generation from trace-like targets."
+}
