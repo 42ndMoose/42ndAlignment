@@ -1,0 +1,415 @@
+{
+  "created_at": "2026-05-05T00:00:11.693Z",
+  "gating": {
+    "mode": "validation_and_quality_pass_only",
+    "required_validation_status": "pass",
+    "required_quality_status": "pass"
+  },
+  "included_scenarios": [
+    {
+      "id": "v2_0_memory_error_001",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v2_0_scope_clarification_002",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v2_0_partial_truth_003",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v2_0_intentional_deception_004",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v2_0_mistaken_accusation_005",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v2_0_timeline_contradiction_006",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v2_0_self_serving_claim_007",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v2_0_motive_ambiguity_008",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v2_0_false_certainty_009",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v2_0_ideological_self_sealing_010",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v2_0_memory_error_011",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v2_0_scope_clarification_012",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v2_0_partial_truth_013",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v2_0_intentional_deception_014",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v2_0_mistaken_accusation_015",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v2_0_timeline_contradiction_016",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v2_0_self_serving_claim_017",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v2_0_motive_ambiguity_018",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v2_0_false_certainty_019",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v2_0_ideological_self_sealing_020",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v2_0_memory_error_021",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v2_0_scope_clarification_022",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v2_0_partial_truth_023",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v2_0_intentional_deception_024",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v2_0_mistaken_accusation_025",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v2_0_timeline_contradiction_026",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v2_0_self_serving_claim_027",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v2_0_motive_ambiguity_028",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v2_0_false_certainty_029",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v2_0_ideological_self_sealing_030",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v2_0_memory_error_031",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v2_0_scope_clarification_032",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v2_0_partial_truth_033",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v2_0_intentional_deception_034",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v2_0_mistaken_accusation_035",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v2_0_timeline_contradiction_036",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v2_0_self_serving_claim_037",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v2_0_motive_ambiguity_038",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v2_0_false_certainty_039",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v2_0_ideological_self_sealing_040",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v2_0_memory_error_041",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v2_0_scope_clarification_042",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v2_0_partial_truth_043",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v2_0_intentional_deception_044",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v2_0_mistaken_accusation_045",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v2_0_timeline_contradiction_046",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v2_0_self_serving_claim_047",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v2_0_motive_ambiguity_048",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v2_0_false_certainty_049",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    },
+    {
+      "id": "v2_0_ideological_self_sealing_050",
+      "validation_status": "pass",
+      "quality_status": "pass",
+      "quality_score": 1,
+      "sft_rows": 5,
+      "preference_rows": 5
+    }
+  ],
+  "excluded_scenarios": [],
+  "row_counts": {
+    "sft_rows": 250,
+    "preference_rows": 250
+  }
+}
